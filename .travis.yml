@@ -12,4 +12,4 @@ addons:
       - lsb-base
       - google-chrome-stable
 
-script: echo ok
+script: chrome --version
