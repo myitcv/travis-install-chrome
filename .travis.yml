@@ -10,6 +10,6 @@ addons:
     packages:
       - g++-4.8
       - lsb-base
-      - google-chrome-beta
+      - google-chrome-stable
 
 script: echo ok
