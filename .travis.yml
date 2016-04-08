@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "5.4.1"
+
+addons:
+  apt:
+    packages:
+      - google-chrome-beta
+
+script: echo ok
