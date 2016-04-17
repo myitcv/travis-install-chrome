@@ -15,4 +15,4 @@ addons:
       - lsb-base
       - google-chrome-stable
 
-script: google-chrome --version
+script: google-chrome-stable --version
