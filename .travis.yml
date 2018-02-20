@@ -1,6 +1,18 @@
+sudo: required
+dist: trusty
+
 language: node_js
+node_js:
+  - "9.5.0"
 
 addons:
-  chrome: beta
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+      - google-chrome
+    packages:
+      - g++-4.8
+      - lsb-base
+      - google-chrome-beta
 
-script: google-chrome --version
+script: google-chrome-beta --version
